@@ -9,12 +9,9 @@ units: units.tsv
 
 ref:
   # the star index location or genomefa to index
-  index: "grch38_ens"
-  genomefa: "/data/gpfs/assoc/inbre/projects/common_references/grch38_ens/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
-  transcriptomefa: "/data/gpfs/assoc/inbre/projects/common_references/grch38_ens/Homo_sapiens.GRCh38.cdna.all.fa"
-  # gtf file with transcripts
-  annotation: "/data/gpfs/assoc/inbre/projects/common_references/grch38_ens/Homo_sapiens.GRCh38.104.gtf"
-  adapter: "/data/gpfs/assoc/inbre/projects/common_references/CustomBlacklist.fa"
-
+  index: "osativa"
+  genomefa: "/data/gpfs/assoc/inbre/projects/common_references/Osativa_IRGSP1.0/Oryza_sativa.IRGSP-1.0.dna.toplevel.fa"
+  #transcriptomefa: "/data/gpfs/assoc/inbre/projects/common_references/Osativa_IRGSP1.0/Oryza_sativa.IRGSP-1.0.cds.all.fa"
+  transcriptomefa: "/data/gpfs/assoc/inbre/projects/common_references/Osativa_IRGSP1.0/Osativa.merged.transcripts.fasta"
 params:
   trimmers: "fastp"
